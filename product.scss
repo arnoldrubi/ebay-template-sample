@@ -275,3 +275,10 @@ footer .container{
         }
     }
 }
+
+// responsive
+@media screen (max-width: 480px){
+    #product-showcase div{
+        flex-basis: 100%;
+    }
+}
