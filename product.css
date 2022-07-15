@@ -1,0 +1,357 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end reset */
+/*color variables*/
+/**/
+body {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  color: #031634;
+}
+
+a {
+  text-decoration: none;
+  color: #036564;
+}
+
+a:hover {
+  color: #036564;
+  opacity: .75;
+  -webkit-transition: .2s linear all;
+  transition: .2s linear all;
+}
+
+h4.sub-title {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.fa-solid {
+  color: #036564;
+  margin-right: 5px;
+}
+
+main {
+  margin-top: 4rem;
+}
+
+/*header*/
+.logo-brand h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  border-top: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #031634, #036564);
+}
+
+#header-nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 15px;
+}
+
+#img-logo {
+  max-width: 200px;
+}
+
+.nav-links {
+  list-style-type: none;
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
+  text-align: right;
+}
+
+.nav-links li {
+  display: inline;
+  padding: 5px 0 5px 25px;
+  font-size: 1.28rem;
+}
+
+.nav-links li a {
+  color: #036564;
+}
+
+.nav-links li a:hover {
+  color: #031634;
+}
+
+.logo-brand {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+
+#product-showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("images/bg-prod-box.jpg") no-repeat center center #dfdfdf;
+  background-size: cover;
+  -webkit-box-shadow: 11px 10px 0px #036564;
+          box-shadow: 11px 10px 0px #036564;
+  border: 1px solid #036564;
+}
+
+#product-showcase div {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 10px 23px;
+  border-right: 1px solid #f8f8f8;
+}
+
+#product-showcase img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 1.75rem;
+  margin: 2rem 0;
+}
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #cdb380;
+  border-style: solid;
+  color: #2c2c2c;
+  margin-top: 1.75rem;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #cdb380;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable th {
+  border-color: #031634;
+  color: #fff;
+}
+
+table.GeneratedTable thead {
+  background-color: #031634;
+}
+
+.features-left {
+  padding-right: 30px;
+}
+
+.features-left p {
+  line-height: 1.25;
+}
+
+.features-left h4 {
+  margin: 1rem 0;
+}
+
+.features-left ul {
+  list-style-type: square;
+  padding-left: .75rem;
+  line-height: 1.5;
+}
+
+.generic-flex-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generic-flex-div div {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 10px 12px;
+}
+
+.phone-num.lead {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: .5rem 0;
+}
+
+#categories {
+  margin: 2rem auto;
+}
+
+.categories-icon-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.categories-icon-set .category-icon {
+  text-align: center;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 5px;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+.categories-icon-set .category-icon img {
+  width: 100%;
+  border: 1px solid #CDB380;
+}
+
+.categories-icon-set .category-icon img:hover {
+  opacity: .85;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  border: 1px solid #E8DDCB;
+}
+
+.categories-icon-set .category-icon:first-child {
+  margin-left: 0;
+}
+
+.categories-icon-set .category-icon:last-child {
+  margin-right: 0;
+}
+
+/**/
+footer {
+  background-color: #031634;
+  color: #fff;
+}
+
+footer .fa-solid {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 3rem 0;
+}
+
+footer .container div {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 10px 12px;
+}
+
+footer .container div h4 {
+  text-align: center;
+  color: #fff;
+}
+
+footer .container div p {
+  font-size: .75rem;
+  line-height: 1.5;
+}
+
+footer .container div ul li {
+  line-height: 1.5;
+}
+
+.awards-info-icons {
+  padding: 0;
+}
+
+.awards-info-icons h4 {
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.info-icon-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 0 !important;
+}
+
+.info-icon-group .icon-text-box {
+  width: 50%;
+  text-align: center;
+  padding-top: 0;
+}
+
+.info-icon-group .icon-text-box p {
+  font-size: 10px;
+  color: #b3b3b3;
+}
+/*# sourceMappingURL=product.css.map */
