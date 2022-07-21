@@ -86,7 +86,7 @@ h4.sub-title {
 }
 
 main {
-  margin-top: 4rem;
+  margin: 6rem 0;
 }
 
 /*header*/
@@ -189,13 +189,14 @@ table.GeneratedTable {
   border-style: solid;
   color: #2c2c2c;
   margin-top: 1.75rem;
+  margin-bottom: 5rem;
 }
 
 table.GeneratedTable td, table.GeneratedTable th {
   border-width: 2px;
   border-color: #cdb380;
   border-style: solid;
-  padding: 3px;
+  padding: 10px;
 }
 
 table.GeneratedTable th {

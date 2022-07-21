@@ -75,7 +75,7 @@ h4.sub-title{    font-size: 1.25rem;
     margin-right: 5px;
 }
 main {
-    margin-top: 4rem;
+    margin: 6rem 0;
   }
 /*header*/
 .logo-brand h1{
@@ -152,13 +152,14 @@ table.GeneratedTable {
     border-style: solid;
     color: rgb(44, 44, 44);
     margin-top: 1.75rem;
+    margin-bottom: 5rem;
   }
   
   table.GeneratedTable td, table.GeneratedTable th {
     border-width: 2px;
     border-color: #cdb380;
     border-style: solid;
-    padding: 3px;
+    padding: 10px;
   }
   table.GeneratedTable th{
     border-color: #031634;
@@ -277,8 +278,8 @@ footer .container{
 }
 
 // responsive
-@media screen (max-width: 480px){
-    #product-showcase div{
-        flex-basis: 100%;
-    }
-}
+// @media screen (max-width: 480px){
+//     #product-showcase div{
+//         flex-basis: 100%;
+//     }
+// }
