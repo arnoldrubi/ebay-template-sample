@@ -210,11 +210,15 @@ table.GeneratedTable {
         img{
             width: 100%;
             border: 1px solid #CDB380;
+            max-width: 200px;
             &:hover{
                 opacity: .85;
                 transition: .3s all;
                 border: 1px solid #E8DDCB;
             }
+        }
+        span{
+            display: block;
         }
     }
     .category-icon:first-child{
@@ -291,8 +295,21 @@ footer .container{
 }
 
 // responsive
-// @media screen (max-width: 480px){
-//     #product-showcase div{
-//         flex-basis: 100%;
-//     }
-// }
+@media only screen and (max-width: 600px) {
+    .logo-brand {
+        flex-basis: 100%;
+        text-align: center;
+      }
+    .sub-title{
+        text-align: center;
+    }
+    #product-showcase{
+        flex-direction: column;
+        div {
+        flex-basis: 100%;
+        }
+    }
+    footer .container, .categories-icon-set{
+        flex-direction: column;
+    }
+  }

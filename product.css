@@ -269,6 +269,7 @@ table.GeneratedTable thead {
 .categories-icon-set .category-icon img {
   width: 100%;
   border: 1px solid #CDB380;
+  max-width: 200px;
 }
 
 .categories-icon-set .category-icon img:hover {
@@ -276,6 +277,10 @@ table.GeneratedTable thead {
   -webkit-transition: .3s all;
   transition: .3s all;
   border: 1px solid #E8DDCB;
+}
+
+.categories-icon-set .category-icon span {
+  display: block;
 }
 
 .categories-icon-set .category-icon:first-child {
@@ -369,5 +374,32 @@ footer .container .footer-content p {
 .info-icon-group .icon-text-box p {
   font-size: 10px;
   color: #b3b3b3;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-brand {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    text-align: center;
+  }
+  .sub-title {
+    text-align: center;
+  }
+  #product-showcase {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #product-showcase div {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  footer .container, .categories-icon-set {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=product.css.map */
