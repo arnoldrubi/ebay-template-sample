@@ -169,9 +169,14 @@ header {
   border-right: 1px solid #f8f8f8;
 }
 
-#product-showcase img {
+#product-showcase .product-image img {
   max-width: 100%;
   width: 100%;
+}
+
+.phone-num.lead img {
+  width: 24px !important;
+  margin: 0 5px -5px 0 !important;
 }
 
 .product-title {
